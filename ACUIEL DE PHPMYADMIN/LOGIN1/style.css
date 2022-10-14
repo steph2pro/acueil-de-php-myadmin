@@ -1,0 +1,105 @@
+:root{
+	--col1: #fff;
+	--col2: dodgerblue;
+}
+body{
+	background-color: var(--col2);
+}
+.container{
+	background-color: var(--col1);
+	margin: 5vw 30vw;
+	width: 30vw;
+	height: 33vw;
+	border-radius: 20px;
+	opacity: 0.7;
+}
+#img1{
+	opacity: 0.5;
+	position: absolute;
+	margin: 0.5vw 9vw;
+	width: 11vw;
+	height: 11vw;
+}
+#nom,#pass{
+	background-color: var(--col1);
+	margin: 0.5vw;
+	padding: 1vw;
+	border: none;
+	width: 18vw;
+	height: 1.2vw;
+	opacity:0.6;
+}
+.content1{
+	position: absolute;
+	margin: -27vw 37vw;
+}
+.content{
+	position: absolute;
+	margin: -27.5vw 32.5vw;
+}
+#img2{
+
+	width: 5vw;
+	height: 2.5vw;
+	position: absolute;
+	margin: -0.6vw -1vw;
+
+}
+
+#img3{
+
+	width: 2vw;
+	height: 2vw;
+	position: absolute;
+	margin: -0.3vw 0.5vw;
+
+}
+
+
+.image3,.image2{
+	margin: 1vw;
+
+	padding: 1vw 0.5vw;
+	width: 3vw;
+	height: 1.1vw;
+	background-color: var(--col1);
+}
+.image2{
+	height: 1.2vw;
+}
+#btn{
+	font-size: 1.5vw;
+	background-color: var(--col2);
+	color: var(--col1);
+	border: none;
+	padding: 0.8vw 10.5vw;
+	position: absolute;
+	margin: -14vw 33.3vw;
+}
+.content3{
+	color: var(--col2);
+	font-size: 1.2vw;
+	position: absolute;
+	margin: -17vw 35.3vw;
+
+}
+input[type="checkbox"]{
+	position: absolute;
+	width: 1.5vw;
+	height: 1.5vw;
+	margin: 0vw -2vw;
+	border: none;
+	background-color: var(--col2);
+	opacity: 0.5;
+}
+input[type="checkbox"]:hover{
+	background-color: var(--col2);  
+	border-radius: 10px;
+}
+a{
+	color: var(--col2);
+	margin: 0vw 4vw;
+	font-style: italic;
+	text-decoration: none;
+
+}
